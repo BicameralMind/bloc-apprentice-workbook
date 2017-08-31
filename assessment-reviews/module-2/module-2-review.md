@@ -142,7 +142,10 @@ nextButton.addEventListener("click", alert("Next image coming up.");
 ### Questions
 
 1. What is a JavaScript library and why do we use them?
+- pre-written JavaScript which allows for easier development of JavaScript-based applications
+
 2. What is jQuery for?
+- a JavaScript library, simplifies more complicated JavaScript code, takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
 
 ### Exercises
 
@@ -155,13 +158,15 @@ nextButton.addEventListener("click", alert("Next image coming up.");
   ```
   
   ```javascript
-
-```
+  var buttons = $(".myClass");
+  ```
 
 2. Write another line that adds a click event to the buttons that logs `'click'` to the console when the button is clicked. Use the jQuery syntax.
 
 ```javascript
-
+buttons.click(function() {
+  console.log("Click");
+});
 ```
 
 ## Angular
@@ -169,14 +174,26 @@ nextButton.addEventListener("click", alert("Next image coming up.");
 ### Questions
 
 1. How is a framework different than a library?
+- frameworks gives you structure for your application, libraries are packages of code that typically get called by your application to perform a task
+
 2. What is a controller?
+- a JavsScript object that controls the data in the application
+
 3. What is a view?
+- the view that the user will see in their browser
+
 4. What is a single page application?
+- a web app that load a single HTML page and dynamically updates that page as the user interacts with the app
+
 5. What is a directive in Angular?
+- HTML attributes that can attach to elements to enhance funcationality
 
 ## Git
 
 ### Exercises
 
 1. Write a command to create a new branch called `bug-fix`.
+- $ git checkout -b bug-fix
+
 2. If you're on the `master` branch, write a command to merge a branch called `bug-fix` into the `master` branch.
+- $ git merge bug-fix
