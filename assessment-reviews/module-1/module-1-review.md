@@ -216,13 +216,37 @@
   answer: Hello Sarah ! Goodbye Sarah !
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
-  - function findLongestWord(){
+  
+  ```javascript
+  function findLongestWord(words){
+    var longest = 0;
     
-    }
+  }
+  ```
 
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
 
+```javascript
+function sum(numbers) {
+  var total = 0;
+	for (var i = 0; i < numbers.length; i++) {
+		total += numbers[i];
+	}
+	return total;
+}
+```
+
 10. Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
+
+```javascript
+function isVowel(x){
+  if(x = "a" || x = "e" || x = "i" || x = "o" || x = "u"){
+    return true;
+  } else {
+      return false;
+    }
+}
+```
 
 11. Write the correct line to make `"Woof!"` show up in the console based on this script:
 
