@@ -28,7 +28,7 @@
 - used to tell the browser what the sizing properties (width and height) should include
 
 6. What's the difference between `relative` and `absolute` positioning?
-- 
+- a relative positioned element is positioned relative to previous element, absolute positing allows you to place elements where you want them on a page
 
 ### Exercises
 
@@ -96,14 +96,21 @@ http://jsbin.com/nunebameta/edit?html,css,output
 
 ```javascript
 function filterLongWords(words, num){
-
+  var longer = [];
+  for(i = 0; i > words[i].length; i++){
+    if(num.length < words[i].length)
+    longer.push(words[i]);
+  }
+  return longer;
 }
 ```
 
 2. Write a function `charFreq()` that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like `charFreq("abbabcbdbabdbdbabababcbcbab")`.
 
 ```javascript
-
+function charFreq(string){
+  
+}
 ```
 
 ## DOM Scripting
