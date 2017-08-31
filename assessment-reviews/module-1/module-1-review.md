@@ -245,27 +245,45 @@
 ### Questions
 
 1. What is the command line and what is it used for?
+- A way to interact with a computer and programs by sending commands through text in the console
+
 2. What does the command `ls` do?
+- lists files in the current working directory
+
 3. What does the command `pwd` do?
-  - print working directory
+- print working directory, shows the directory you're currently working with
 
 4. What does the following command do: `cd my-cool-project`
+- it will take you to the directory "my-cool-project"
 
 ### Exercises
 
 1. Write the command to make a new directory called "my-cool-project".
+- mkdir my-cool-project
+
 2. Write the command to create a file called "index.html".
+- touch index.html
+
 3. Write the command to delete a file called "main.css".
+- rm main.css
 
 ## Git
 
 ### Questions
 
 1. What is Git and what is it used for?
+- a distributed version control system that allows you to record changes to your files and allows others to access via remote repositories 
+
 2. What's the difference between a local repository and a remote repository?
+- local is stored on the computer you are working on, a remote is elsewhere (GitHub, some other server)
 
 ### Exercises
 
 1. Write the command that you would use to create a new local Git repository.
+- git init
+
 2. Write the command to stage a file called `index.html` to be committed.
+- git add index.html
+
 3. Write the command to view the current status of the git repository.
+- git status
