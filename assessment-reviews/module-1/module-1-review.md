@@ -220,8 +220,16 @@
   ```javascript
   function findLongestWord(words){
     var longest = 0;
+    for( var i = 0; i < words[i].length; i++){
+    	if(words[i].length > longest){
+		words[i].length = longest;
+	}
+    } 
+    return longest;
+  } 
+
     
-  }
+  
   ```
 
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
