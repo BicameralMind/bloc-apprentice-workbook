@@ -22,16 +22,27 @@
 ### Exercises
 
 1. Write a paragraph tag with a class of "highlight" and content "Watch out!".
-  - <p class="highlight">Watch out!</p>
+  
+  ```html
+  <p class="highlight">Watch out!</p>
+  ```
 
 2. Write an HTML image tag to show an image called `profile-picture.jpg`.
-  - <img src="profile-picture.jpg>
+  
+  ```html
+  <img src="profile-picture.jpg>
+  ```
   
 3. Write a link tag that links to http://google.com.
-  - <a href="http://google.com></a>
+  
+  ```html
+  <a href="http://google.com></a>
+  ```
   
 5. Write an complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
-  - <!DOCTYPE html>
+  
+  ```html
+    <!DOCTYPE html>
     <html>
       <head>
         (7) <link href="main.css" rel="stylesheet" type="text/css">
@@ -40,15 +51,19 @@
         (6) <script src="main.js" type="text/javascript"></script>
       </body>
     </html>
+  ```
 
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
 8. Write a numbered list in HTML and list three of your favorite books.
-  - <ul>
+  -
+  ```html
+    <ul>
       <li>Ready Player One - Ernest Cline</li>
       <li>Mistborn: The Well of Ascension - Brandon Sanderson</li>
       <li>Timeline - Michael Crichton</li>
     </ul>
+  ```
 
 9. Fix the indentation of the following HTML sample:
 
@@ -126,21 +141,31 @@
   - var myName = "Michael Fraino";
   
 2. Write a loop that logs the numbers 1 through 10 to the console.
-  - for(var i = 1; i <= 10; i++){
+  
+  ```javascript
+  for(var i = 1; i <= 10; i++){
       console.log(i);
-    }
+  }
+  ```
     
 3. Translate the following pseudocode into JavaScript: if `score` is greater than `3` and `lives` is greater than `0`, alert "You win!".
-  - if(score > 3 && lives > 0) {
+ 
+ ```javascript
+ if(score > 3 && lives > 0) {
       alert("Your win!"); 
-    }
+ }
+ ```
     
 4. Write a function `sayHello` that takes one argument, a name, and logs "Hello, <name>!" to the console. Then, call the function below the function definition and pass in your name as the argument.
-  - function sayHello(name){
+ 
+ ```javascript
+ function sayHello(name){
       console.log("Hello, " + name + "!");
-    }
+ }
     
-    sayHello(Michael);
+ sayHello(Michael);
+ ```
+
 
 5. What would the following script log to the console?
 
