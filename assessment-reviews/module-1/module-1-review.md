@@ -218,16 +218,17 @@
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
   
   ```javascript
+  var array = ["hello", "goodbye"];
+
   function findLongestWord(words){
     var longest = 0;
-    for( var i = 0; i < words[i].length; i++){
+    for( var i = 0; i < words.length; i++){
     	if(words[i].length > longest){
-		words[i].length = longest;
-	}
+          longest = words[i].length;
+        }
     } 
     return longest;
-  } 
-
+} 
     
   
   ```
